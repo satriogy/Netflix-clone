@@ -39,6 +39,6 @@ jobs:
           export PATH="$PWD/sonar-scanner-5.0.1.3006-linux/bin:$PATH"
           sonar-scanner \
             -Dsonar.organization=satriogy \
-            -Dsonar.projectKey=satriogy_Netflix_clone \
+            -Dsonar.projectKey=satriogy_Netflix-clone \
             -Dsonar.sources=. \
             -Dsonar.host.url=https://sonarcloud.io
